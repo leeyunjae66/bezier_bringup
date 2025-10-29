@@ -8,6 +8,8 @@
 ```bash
 ros2 launch bezier_bringup bringup.launch.py
 
-#### bringup 코드 사용 설명
--코드 실행후 rviz2 gui로 publish points 4개를 클릭.
--cp를 충분한 안전거리로 밀기때문에 보정된 path가 밀린 방향의 장애물과 충돌할 수 있음.
+#### Bringup 코드 사용 설명
+
+- 코드를 실행한 후 RViz2 GUI에서 `Publish Point` 도구를 이용해 4개의 제어점(Control Points) 을 클릭합니다.  
+- 본 알고리즘은 제어점을 충분한 안전거리로 외측 이동시켜 곡선을 보정합니다.  
+  단, 이 과정에서 보정된 경로가 밀린 방향의 장애물과 충돌할 가능성이 있습니다.
