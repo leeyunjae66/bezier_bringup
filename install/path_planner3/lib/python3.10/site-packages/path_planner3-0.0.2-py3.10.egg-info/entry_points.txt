@@ -1,0 +1,3 @@
+[console_scripts]
+path_generator = path_planner3.path_generator:main
+

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: path-planner3
+Version: 0.0.2
+Summary: ROS2 Bezier path planner using /clicked_point and /map with obstacle avoidance
+Home-page: UNKNOWN
+Maintainer: Your Name
+Maintainer-email: you@example.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

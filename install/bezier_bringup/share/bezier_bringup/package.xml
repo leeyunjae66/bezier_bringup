@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>bezier_bringup</name>
+  <version>0.0.1</version>
+  <description>Bringup: rviz2 + nav2 map_server(lifecycle) + path_planner3/path_generator</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Launch & ROS -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <!-- UI -->
+  <exec_depend>rviz2</exec_depend>
+
+  <!-- Map server (+ lifecycle manager to configure/activate it) -->
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>nav2_lifecycle_manager</exec_depend>
+
+  <!-- Your node package that provides the 'path_generator' executable -->
+  <exec_depend>path_planner3</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

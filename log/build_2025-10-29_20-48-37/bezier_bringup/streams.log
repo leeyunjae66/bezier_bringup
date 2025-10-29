@@ -1,0 +1,29 @@
+[1.039s] Invoking command in '/home/lyj/ros2_bezier_ws/src/bezier_bringup': AMENT_PREFIX_PATH=/home/lyj/ros2_bezier_ws/install/path_planner3 PYTHONPATH=/home/lyj/ros2_bezier_ws/build/bezier_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyj/ros2_bezier_ws/install/bezier_bringup/lib/python3.10/site-packages:/home/lyj/ros2_bezier_ws/install/path_planner3/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bezier_bringup build --build-base /home/lyj/ros2_bezier_ws/build/bezier_bringup/build install --record /home/lyj/ros2_bezier_ws/build/bezier_bringup/install.log --single-version-externally-managed install_data
+[1.423s] running egg_info
+[1.424s] creating ../../build/bezier_bringup/bezier_bringup.egg-info
+[1.424s] writing ../../build/bezier_bringup/bezier_bringup.egg-info/PKG-INFO
+[1.425s] writing dependency_links to ../../build/bezier_bringup/bezier_bringup.egg-info/dependency_links.txt
+[1.425s] writing entry points to ../../build/bezier_bringup/bezier_bringup.egg-info/entry_points.txt
+[1.425s] writing requirements to ../../build/bezier_bringup/bezier_bringup.egg-info/requires.txt
+[1.425s] writing top-level names to ../../build/bezier_bringup/bezier_bringup.egg-info/top_level.txt
+[1.425s] writing manifest file '../../build/bezier_bringup/bezier_bringup.egg-info/SOURCES.txt'
+[1.426s] reading manifest file '../../build/bezier_bringup/bezier_bringup.egg-info/SOURCES.txt'
+[1.428s] writing manifest file '../../build/bezier_bringup/bezier_bringup.egg-info/SOURCES.txt'
+[1.428s] running build
+[1.428s] running install
+[1.428s] running install_data
+[1.429s] creating /home/lyj/ros2_bezier_ws/install/bezier_bringup/share/ament_index
+[1.429s] creating /home/lyj/ros2_bezier_ws/install/bezier_bringup/share/ament_index/resource_index
+[1.429s] creating /home/lyj/ros2_bezier_ws/install/bezier_bringup/share/ament_index/resource_index/packages
+[1.429s] copying resource/bezier_bringup -> /home/lyj/ros2_bezier_ws/install/bezier_bringup/share/ament_index/resource_index/packages
+[1.429s] copying package.xml -> /home/lyj/ros2_bezier_ws/install/bezier_bringup/share/bezier_bringup
+[1.429s] creating /home/lyj/ros2_bezier_ws/install/bezier_bringup/share/bezier_bringup/launch
+[1.430s] copying launch/bringup.launch.py -> /home/lyj/ros2_bezier_ws/install/bezier_bringup/share/bezier_bringup/launch
+[1.430s] creating /home/lyj/ros2_bezier_ws/install/bezier_bringup/share/bezier_bringup/config
+[1.430s] copying config/tb3_map.pgm -> /home/lyj/ros2_bezier_ws/install/bezier_bringup/share/bezier_bringup/config
+[1.430s] copying config/tb3_map.yaml -> /home/lyj/ros2_bezier_ws/install/bezier_bringup/share/bezier_bringup/config
+[1.430s] running install_egg_info
+[1.434s] Copying ../../build/bezier_bringup/bezier_bringup.egg-info to /home/lyj/ros2_bezier_ws/install/bezier_bringup/lib/python3.10/site-packages/bezier_bringup-0.0.1-py3.10.egg-info
+[1.435s] running install_scripts
+[1.472s] writing list of installed files to '/home/lyj/ros2_bezier_ws/build/bezier_bringup/install.log'
+[1.513s] Invoked command in '/home/lyj/ros2_bezier_ws/src/bezier_bringup' returned '0': AMENT_PREFIX_PATH=/home/lyj/ros2_bezier_ws/install/path_planner3 PYTHONPATH=/home/lyj/ros2_bezier_ws/build/bezier_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyj/ros2_bezier_ws/install/bezier_bringup/lib/python3.10/site-packages:/home/lyj/ros2_bezier_ws/install/path_planner3/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bezier_bringup build --build-base /home/lyj/ros2_bezier_ws/build/bezier_bringup/build install --record /home/lyj/ros2_bezier_ws/build/bezier_bringup/install.log --single-version-externally-managed install_data
